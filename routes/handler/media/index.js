@@ -1,7 +1,9 @@
-const create = require('./create');
-const get = require('./get');
+const createMedia = require('./create');
+const getMedia = require('./get');
+const deleteMedia = require('./delete');
 
 module.exports = {
-    create,
-    get
+    createMedia,
+    getMedia,
+    deleteMedia
 }
